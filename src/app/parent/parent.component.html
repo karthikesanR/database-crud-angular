@@ -1,0 +1,22 @@
+<table class="stud">
+    
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Sname</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Phone</th>
+        </tr>
+    </thead>
+
+    <tbody *ngFor="let e of getDate2">
+        <tr>
+            <td>{{e.id}}</td>
+            <td>{{e.Sname}}</td>
+            <td>{{e.Age}}</td>
+            <td>{{e.Gender}}</td>
+            <td>{{e.Phone}}</td>
+        </tr>
+    </tbody>
+</table>
